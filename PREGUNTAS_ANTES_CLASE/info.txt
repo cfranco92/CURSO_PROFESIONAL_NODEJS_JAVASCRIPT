@@ -1,0 +1,106 @@
+Preguntas antes de la clase
+--------------------------------------------------------------------------------
+-->¿Por qué es importante aprender Node.js y Javascript?
+   -----------------------------------------------------
+   * JavaScript es un lenguaje que gobierna actualmente las aplicaciones web,.
+   * Sitios de eccommerce están basados hoy en día en JavaScript en el lado del
+     servidor.
+   * Se han dado otros desarrollos como internet de las cosas.
+   * Tiene uso desde hace muchos años. Hoy en día se puede usar en servidores,
+     internet de las cosas.
+   * Todos los proyectos hoy por hoy tienen una parte en la web y JavaScript es
+     fundamental para esto.
+
+-->Explícanos el cambio de io.js a Node.js
+   * Node es un proyecto de código abierto.
+   * Vino un grupo de gente con las políticas de Node.js y cambiaron su desarrollo
+     por otro lado como io.js. Los últimos años hemos tenido una unión (merge)
+     entre io.js y Node.js quedando con el nombre de nuevo Node.js bajo Node
+     Fundation.
+
+-->Qué tiene que saber alguien que va a tomar este curso?
+   * Se asume que tiene una idea de desarrollo web, protocolo http y programación
+     en general.
+   * El que no tenga experiencia previa, se le puede escapar algunas cosas.
+
+
+-->Qué herramientas vamos a utilizar?
+   * Se va utilizar sublime text o atom. Igualmente Node no impone ningún editor
+     de texto. Que mínimamente tenga resaltador sintáctico.
+   * A lo largo del curso se dirá dónde descargar NodeJS.
+   * Se recomienda utilizar Linux y NodeJS. En Windows en linea de comandos puede
+     ser un poco diferente.
+
+-->Temario y proyecto
+   * Se parte de una aplicación realizada previamente una gran parte.
+   * Se va a poner una aplicación servidor, donde podamos tener series que se
+     guarden en la base de datos, utilizando MongoDB.
+   * La idea es no depender de una API externa.
+   * Funciones sincrónicas y asincrónicas.
+   * Crear un server muy básico.
+   * Express.
+   * MongoDB.
+
+-->Por qué elegir Node.js, que me ofrece?
+   * Node se inventa para manejar de forma rápida request http, poder manejar
+     muchas request. Esto se resuelve un libu, cada request se va encolando.
+     Es muy util para operaciones muy costosas.
+   * El acceso de a la base de datos que puede demorar mucho tiempo, esto no va
+     ha bloquear el acceso desde otros puntos.
+   * Resuelve el tema de concurrencia.
+
+-->En qué casos no deberíamos usar Node.js?
+   * Operaciones que requieran mucho cálculo. Se puede utilizar, pero no es para
+     lo que se inventó.
+   * Cabe recordar que NodeJS puede utilizar hilos.
+
+-->Con tecnologías como python/django, ruby/ROR, php/laravel, javascript/nodejs, etc.. ¿cual recomiendas para desarrollarse profesionalmente?
+   * Todo depende, pero actualmente se puede aprovechar mucho el desarrollo web
+     utilizando javaScript y NodeJS en el lado servidor.
+
+-->Vamos a utilizar EMACScript 6?
+   * Si, se va utilizar y se explica hasta donde lo soporta node y como utilizar
+     babel.
+
+-->Trabajaremos con el MEAN Full-Stack?
+   * Mongo, Express, Angular y Node. Se verán todos menos Angular.
+
+-->Hay servers gratuitos para probar Node?
+   * Si, hay servios como Heroku que funcionan bastante bien.
+
+
+
+(17:51)
+-->Debemos tener algún permiso o control total del servidor para instalar lo correspondiente y que funciona node?
+
+-->Qué tal es el rendimiento de las promesas vs callbacks en las aplicaciones de producción?
+
+-->¿Cuándo me conviene actualizarme de una versión 0.10.x 0 o 0.12.x a 4.x.x o 5.x.x?
+
+-->Conviene optar por Node.js como tecnología para desarrollo de proyectos de software en una Institución Educativa?
+
+-->Es posible servir app de nodejs en IIS?
+
+-->¿Cómo hacemos con los puertos si no somos root?
+
+-->¿Implementaremos MVC con Sails.js?
+
+-->¿Veremos cómo montar el servidor para producción?
+
+-->¿Para una aplicación de transacciones en realtime con PostgreSQL con mucha simultaneidad es aconsejable Node.js?
+
+-->¿Programaremos Node con el paradigma POO?
+
+-->¿Este curso nos servirá para tener la base de cómo realizar una integración entre Node Js y Arduino?
+
+-->¿Qué son y cómo funcionan los middlewares?
+
+-->¿Podríamos "enviar" con node.js notificaciones a distintos grupos de usuarios?
+
+-->¿Es posible conectar sockets con una app nativa en android para crear una app real time como un chat?
+
+-->¿Con qué bases de datos se puede trabajar con Node.js?
+
+-->¿Puedo migrar de php a node.js? puedo hacer los formularios y consultas a base de datos?
+
+-->¿Qué tal RethinkDB con Nodejs para aplicaciones de tipo dashboard para mostrar info que cambia constantemente?
